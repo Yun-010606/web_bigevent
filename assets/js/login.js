@@ -58,7 +58,7 @@ $(function () {
                 // 登录成功后拿到身份效验存放在本地存储
                 localStorage.setItem('token',res.token)
                 // 跳转到主页
-                // location.href = "/index.html"
+                location.href = "/index.html"
             }
         })
     })
