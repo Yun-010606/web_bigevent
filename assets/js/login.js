@@ -11,7 +11,7 @@ $(function () {
     })
     // 引入form
     const form = layui.form
-    const layer = layui.layer
+    const layer = layui.layer 
     // 自定义校验规则
     form.verify({
         // 密码校验规则
